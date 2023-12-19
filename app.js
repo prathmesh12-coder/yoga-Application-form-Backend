@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 //mongodb+srv://prathmesh:<password>@cluster0.2zcanyt.mongodb.net/?retryWrites=true&w=majority
 //mongodb://localhost/yogaDB
-mongoose.connect('mongodb+srv://prathmesh:prathmesh@cluster0.2zcanyt.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://prathmesh:prathmesh@cluster0.2zcanyt.mongodb.net/Admissionform?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

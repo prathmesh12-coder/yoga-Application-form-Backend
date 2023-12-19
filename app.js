@@ -52,6 +52,10 @@ app.post('/enroll', async (req, res) => {
   }
 });
 
+app.get('/',()=>{
+  res.send("hello");
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
